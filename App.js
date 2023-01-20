@@ -16,7 +16,7 @@ export default function App() {
           component = {Home}
           name = 'Home'
           options={{
-            headerTitle: () => <Header names = "Notes" />,
+            headerTitle: () => <Header name = "Reminders" />,
             headerStyle: {
               backgroundColor: '#4c00b0',
               height:120,
@@ -27,7 +27,7 @@ export default function App() {
           component = {NoteAdd}
           name = 'NoteAdd'
           options={{
-            headerTitle: () => <Header names = "Add Notes" />,
+            headerTitle: () => <Header name = "Add Reminders" />,
             headerStyle: {
               backgroundColor: '#4c00b0',
               height:120,

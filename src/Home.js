@@ -25,7 +25,7 @@ const Home = () => {
         }, []);
     return (
         <View style={styles.container}>
-            <Text>Home</Text>
+            
             <FlatList
                 data = {notes}
                 numColumns={2}
@@ -41,7 +41,7 @@ const Home = () => {
                     </View>
                 )}
             />
-        <Button title='Add Notes' onPress={() => navigation.navigate('NoteAdd')}  />
+        <Button title='Add Reminders' onPress={() => navigation.navigate('NoteAdd')}  />
         </View>
     )
 }
@@ -68,10 +68,12 @@ const styles = StyleSheet.create({
     },
     noteTitle: {
         fontSize:20,
-        fontWeight:'bold'
+        fontWeight:'bold',
+        color:'white'
     },
     noteDescription: {
         fontSize:16,
-        marginTop:5
+        marginTop:5,
+        color:'white'
     }
 })
