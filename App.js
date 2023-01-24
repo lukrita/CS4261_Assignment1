@@ -18,7 +18,7 @@ export default function App() {
           options={{
             headerTitle: () => <Header name = "Reminders" />,
             headerStyle: {
-              backgroundColor: '#4c00b0',
+              backgroundColor: '#030bfc',
               height:120,
             }
           }}
@@ -29,7 +29,7 @@ export default function App() {
           options={{
             headerTitle: () => <Header name = "Add Reminders" />,
             headerStyle: {
-              backgroundColor: '#4c00b0',
+              backgroundColor: '#080206',
               height:120,
             }
           }}
