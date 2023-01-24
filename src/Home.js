@@ -69,11 +69,11 @@ const styles = StyleSheet.create({
     noteTitle: {
         fontSize:20,
         fontWeight:'bold',
-        color:'white'
+        color:'green'
     },
     noteDescription: {
         fontSize:16,
         marginTop:5,
-        color:'white'
+        color:'green'
     }
 })
