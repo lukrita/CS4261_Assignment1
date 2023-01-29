@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     },
     noteView:{
         flex:1,
-        backgroundColor:'blue',
+        backgroundColor:'orange',
         padding:10,
         margin:10,
         borderRadius:10,

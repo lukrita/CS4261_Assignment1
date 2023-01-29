@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     },
     inputNote: {
         fontSixe:18,
-        height:300,
+        height:200,
         width:'97%',
         borderColor: 'gray',
         borderWidth: 1/2,
