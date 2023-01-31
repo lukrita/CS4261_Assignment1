@@ -6,13 +6,14 @@ import Header from './src/Header'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Detail from './src/Detail';
+import Welcome from './src/Welcome';
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator initialRouteName='Welcome' >
         <Stack.Screen
           component = {Home}
           name = 'Home'
@@ -45,6 +46,10 @@ export default function App() {
               height:120,
             }
           }}
+        />
+        <Stack.Screen 
+          component={Welcome}
+          name='Welcome'
         />
       </Stack.Navigator>
     </NavigationContainer>
