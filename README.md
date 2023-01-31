@@ -9,17 +9,17 @@ Additionally, on the home page, the user can click on the boxes with the reminde
 https://youtu.be/ftLffQkf568 
 
 ## References:
-•	React setup: https://reactnavigation.org/docs/getting-started/ 
+1. React setup: https://reactnavigation.org/docs/getting-started/ 
   o	I used this link to setup react locally, installing the different dependencies. 
-•	Npx expo setup: https://docs.expo.dev/workflow/expo-cli/ 
+2. Npx expo setup: https://docs.expo.dev/workflow/expo-cli/ 
   o	I used this document to understand what npx expo is and how it allows apps to run on a phone by scanning the QR code.
-•	Debugging npx expo: https://stackoverflow.com/questions/70328652/incompatible-react-native-sdk-with-expo-sdk 
+3. Debugging npx expo: https://stackoverflow.com/questions/70328652/incompatible-react-native-sdk-with-expo-sdk 
   o	I faced a lot of issues in the beginning when setting up because of sdk version conflicts and had to Google or use stackoverflow to find a combination of different solutions until the app could finally run.
-•	Tutorial video: https://www.youtube.com/watch?v=WYFoxxFaCy0&ab_channel=BugNinza 
+4. Tutorial video: https://www.youtube.com/watch?v=WYFoxxFaCy0&ab_channel=BugNinza 
   o	I followed this tutorial to make the basics of the app, including the creation of the Home page, making of the “add reminder” feature, and setting up of the firebase datastore.
-•	Firebase explanation doc: https://firebase.google.com/docs/firestore/quickstart 
+5. Firebase explanation doc: https://firebase.google.com/docs/firestore/quickstart 
   o	I followed this document to understand how to connect the app with firebase and how to access the data.
-•	Fetching user location: https://blog.jscrambler.com/how-to-use-react-native-geolocation-to-get-postal-address 
+6. Fetching user location: https://blog.jscrambler.com/how-to-use-react-native-geolocation-to-get-postal-address 
   o	I used this tutorial to understand how to use npx expo to fetch location from users’ mobile devices.
 
 ## How to Run the Code:
